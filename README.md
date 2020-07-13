@@ -25,16 +25,16 @@ output obtained (for more details about output see the dialign documetation)
  
 
 3. Building the shared lexicon of the group from the results of dialign : 
-    Script : getSharedLexiconGroup.py
-    Input : output directory of dialign (file-dialogue.txt and file-lexicon.txt)
-    Output : directory (shLexiconGlobal) containing 1 file of the shared vocabulary for each conversation. 
+   - Script : getSharedLexiconGroup.py
+   - Input : output directory of dialign (file-dialogue.txt and file-lexicon.txt)
+   - Output : directory (shLexiconGlobal) containing 1 file of the shared vocabulary for each conversation. 
 
 4. Applying offline and group-centered measures
-    Script : offlineGpMeasures.py
-    Input : shLexiconGlobal (directory obtained at stage 3. Building the shared lexicon of the group)
-    Output : synthesisGlobalAllConv.csv contained the results of the offline group-centered measures for all the conversations. 
+   - Script : offlineGpMeasures.py
+   - Input : shLexiconGlobal (directory obtained at stage 3. Building the shared lexicon of the group)
+   - Output : synthesisGlobalAllConv.csv contained the results of the offline group-centered measures for all the conversations. 
 
 5. Applying online measures : 
-    Script : onlineMeasures.py
-    Input : output directory of dialign (file-dialogue.txt and file-lexicon.txt) AND shLexiconGlobal directory obtained at stage 3. 
-    Output : resultsOnLine.csv containing the results of the online measures. 
+    - Script : onlineMeasures.py
+    - Input : output directory of dialign (file-dialogue.txt and file-lexicon.txt) AND shLexiconGlobal directory obtained at stage 3. 
+    - Output : resultsOnLine.csv containing the results of the online measures. 
